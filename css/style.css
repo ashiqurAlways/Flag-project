@@ -10,6 +10,9 @@
     position: relative;
     top: 40px;
     left: 50px;
+    border: 2px solid black;
+    border-left: none;
+    border-top-right-radius: 150px;
 }
 .flag-circle {
     height: 130px;
