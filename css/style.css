@@ -8,8 +8,8 @@
     width: 500px;
     background-color: green;
     position: relative;
-    top: 30px;
-    left: 30px;
+    top: 40px;
+    left: 50px;
 }
 .flag-circle {
     height: 130px;
@@ -22,12 +22,23 @@
     border-radius: 100%;
 }
 .flag-handle {
-    height: 200px;
+    height: 300px;
     width: 40px;
     background-color: black;
     position: relative;
     top: 90%;
     border-top-right-radius: 30px;
+}
+
+.flag-top-handel {
+    height: 50px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    top: -85%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 .flag-footer {
     height: 50px;
